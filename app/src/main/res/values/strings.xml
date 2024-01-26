@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">Saint-P</string>
+
+    <string name="coffee_shops">Coffee shops</string>
+    <string name="restaurants">Restaurants</string>
+    <string name="museums">Museums</string>
+    <string name="parks">Parks</string>
+    <string name="shopping_centers">Shopping centers</string>
+
+    <string name="recommendation_coffee_shops1">Recommendation Coffee shops 1</string>
+    <string name="recommendation_coffee_shops2">Recommendation Coffee shops 2</string>
+    <string name="recommendation_coffee_shops3">Recommendation Coffee shops 3</string>
+    <string name="recommendation_coffee_shops4">Recommendation Coffee shops 4</string>
+    <string name="recommendation_coffee_shops5">Recommendation Coffee shops 5</string>
+
+    <string name="recommendation_restaurants1">Recommendation restaurants 1</string>
+    <string name="recommendation_restaurants2">Recommendation restaurants 2</string>
+    <string name="recommendation_restaurants3">Recommendation restaurants 3</string>
+    <string name="recommendation_restaurants4">Recommendation restaurants 4</string>
+    <string name="recommendation_restaurants5">Recommendation restaurants 5</string>
+
+    <string name="recommendation_museums1">Recommendation museums 1</string>
+    <string name="recommendation_museums2">Recommendation museums 2</string>
+    <string name="recommendation_museums3">Recommendation museums 3</string>
+    <string name="recommendation_museums4">Recommendation museums 4</string>
+    <string name="recommendation_museums5">Recommendation museums 5</string>
+
+    <string name="recommendation_shopping_centers1">Recommendation shopping centers 1</string>
+    <string name="recommendation_shopping_centers2">Recommendation shopping centers 2</string>
+    <string name="recommendation_shopping_centers3">Recommendation shopping centers 3</string>
+    <string name="recommendation_shopping_centers4">Recommendation shopping centers 4</string>
+    <string name="recommendation_shopping_centers5">Recommendation shopping centers 5</string>
+
+    <string name="recommendation_parks1">Recommendation parks 1</string>
+    <string name="recommendation_parks2">Recommendation parks 2</string>
+    <string name="recommendation_parks3">Recommendation parks 3</string>
+    <string name="recommendation_parks4">Recommendation parks 4</string>
+    <string name="recommendation_parks5">Recommendation parks 5</string>
+
+
+    <string name="description"> <string name="detail_text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Praesent ultrices congue rutrum. Phasellus elementum ipsum ac convallis aliquam. Suspendisse
+        eleifend eros a enim faucibus mollis. Nunc placerat, est vitae vestibulum blandit, dolor
+        diam fringilla tellus, eu euismod mauris neque at neque.
+        \n\n
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Praesent ultrices congue rutrum. Phasellus elementum ipsum ac convallis aliquam. Suspendisse
+        eleifend eros a enim faucibus mollis. Nunc placerat, est vitae vestibulum blandit, dolor
+        diam fringilla tellus, eu euismod mauris neque at neque.
+        \n\n
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Praesent ultrices congue rutrum. Phasellus elementum ipsum ac convallis aliquam. Suspendisse
+        eleifend eros a enim faucibus mollis. Nunc placerat, est vitae vestibulum blandit, dolor
+        diam fringilla tellus, eu euismod mauris neque at neque.
+        \n\n
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Praesent ultrices congue rutrum. Phasellus elementum ipsum ac convallis aliquam. Suspendisse
+        eleifend eros a enim faucibus mollis. Nunc placerat, est vitae vestibulum blandit, dolor
+        diam fringilla tellus, eu euismod mauris neque at neque.
+        \n\n
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Praesent ultrices congue rutrum. Phasellus elementum ipsum ac convallis aliquam. Suspendisse
+        eleifend eros a enim faucibus mollis. Nunc placerat, est vitae vestibulum blandit, dolor
+        diam fringilla tellus, eu euismod mauris neque at neque.
+    </string></string>
+</resources>
