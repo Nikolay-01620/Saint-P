@@ -6,11 +6,11 @@ object CategoryResource {
 
 
     val categoryResource = listOf(
-        DataCategoryTemplate(R.drawable.photo16,R.string.coffee_shops),
-        DataCategoryTemplate(R.drawable.photo20,R.string.restaurants),
-        DataCategoryTemplate(R.drawable.photo21,R.string.museums),
-        DataCategoryTemplate(R.drawable.photo1,R.string.parks),
-        DataCategoryTemplate(R.drawable.photo17,R.string.shopping_centers),
+        DataCategoryTemplate(R.drawable.photo1,R.string.coffee_shops),
+        DataCategoryTemplate(R.drawable.photo2,R.string.restaurants),
+        DataCategoryTemplate(R.drawable.photo3,R.string.museums),
+        DataCategoryTemplate(R.drawable.photo4,R.string.parks),
+        DataCategoryTemplate(R.drawable.photo5,R.string.shopping_centers),
     )
 
 }
