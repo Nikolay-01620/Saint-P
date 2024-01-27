@@ -10,7 +10,7 @@ import com.bignerdranch.android.saint_p.ui.CategoryScreen
 fun Preview() {
     CategoryScreen(
         categoryText = R.string.coffee_shops,
-        categoryImage = R.drawable._0143609816_1f82146fd4_c
+        categoryImage = R.drawable._0143609816_1f82146fd4_c,
     )
 
 }

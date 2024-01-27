@@ -22,10 +22,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    CategoryScreen(
-                        categoryText = R.string.coffee_shops,
-                        categoryImage = R.drawable._0143609816_1f82146fd4_c
-                    )
+
                 }
             }
         }
