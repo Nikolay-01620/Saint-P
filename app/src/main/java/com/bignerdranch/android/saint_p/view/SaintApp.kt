@@ -6,6 +6,8 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.bignerdranch.android.saint_p.data.Route
+import com.bignerdranch.android.saint_p.data.dataCategory.CategoryResource
+import com.bignerdranch.android.saint_p.data.dataRecommendation.RecommendationResource
 import com.bignerdranch.android.saint_p.ui.CategoryScreen
 import com.bignerdranch.android.saint_p.ui.RecommendationScreen
 
@@ -21,17 +23,36 @@ fun SaintApp(
     ) {
         composable(route = Route.Category.name) {
             CategoryScreen(
-                category = ,
+                category = CategoryResource.categoryResource ,
                 onCategoryClick =
-                { navController.navigate(Route.Recommendation.name) }
+                { navController.navigate(Route.RecommendationResourceRestaurants.name) }
             )
         }
 
-        composable(route = Route.Recommendation.name) {
+        composable(route = Route.RecommendationResourceCoffeeShops.name) {
             RecommendationScreen(
-                recommendation = ,
-                onRecommendationClick =
-                { navController.navigate(Route.Description.name) })
+                recommendation = RecommendationResource.recommendationResourceCoffeeShops
+            ) { navController.navigate(Route.Description.name) }
+        }
+        composable(route = Route.RecommendationResourceRestaurants.name) {
+            RecommendationScreen(
+                recommendation = RecommendationResource.recommendationResourceRestaurants
+            ) { navController.navigate(Route.Description.name) }
+        }
+        composable(route = Route.RecommendationResourceMuseums.name) {
+            RecommendationScreen(
+                recommendation = RecommendationResource.recommendationResourceMuseums
+            ) { navController.navigate(Route.Description.name) }
+        }
+        composable(route = Route.RecommendationResourceParks.name) {
+            RecommendationScreen(
+                recommendation = RecommendationResource.recommendationResourceParks
+            ) { navController.navigate(Route.Description.name) }
+        }
+        composable(route = Route.RecommendationResourceShoppingCenters.name) {
+            RecommendationScreen(
+                recommendation = RecommendationResource.recommendationResourceShoppingCenters
+            ) { navController.navigate(Route.Description.name) }
         }
     }
 }

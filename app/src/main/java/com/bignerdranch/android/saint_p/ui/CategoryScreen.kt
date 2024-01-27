@@ -16,8 +16,8 @@ fun CategoryScreen(
     LazyColumn {
         items(category) {
             CategoryItem(
-                categoryText = ,
-                categoryImage = ,
+                categoryText = it.categoryText,
+                categoryImage = it.categoryImage,
                 onCategoryClick = onCategoryClick
             )
         }
