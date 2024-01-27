@@ -5,6 +5,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import com.bignerdranch.android.saint_p.R
 import com.bignerdranch.android.saint_p.ui.CategoryScreen
 
+/*
 @Preview(showBackground = true)
 @Composable
 fun Preview() {
@@ -13,4 +14,4 @@ fun Preview() {
         categoryImage = R.drawable._0143609816_1f82146fd4_c,
     )
 
-}
+}*/
