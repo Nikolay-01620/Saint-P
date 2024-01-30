@@ -1,6 +1,9 @@
 package com.bignerdranch.android.saint_p.view
 
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.collectAsState
+import androidx.compose.runtime.getValue
+import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
@@ -10,12 +13,17 @@ import com.bignerdranch.android.saint_p.data.dataCategory.CategoryResource
 import com.bignerdranch.android.saint_p.data.dataRecommendation.RecommendationResource
 import com.bignerdranch.android.saint_p.ui.CategoryScreen
 import com.bignerdranch.android.saint_p.ui.RecommendationScreen
+import com.bignerdranch.android.saint_p.vm.SaintViewModel
 
 @Composable
 fun SaintApp(
+    saintViewModel: SaintViewModel = viewModel(),
     navController: NavHostController = rememberNavController()
 
 ) {
+
+    // как мне синхронизировать данные с вм,пока что тоже разбираюсь
+    val upDateUi by saintViewModel.uiState.collectAsState()
 
     NavHost(
         navController = navController,
@@ -23,7 +31,7 @@ fun SaintApp(
     ) {
         composable(route = Route.Category.name) {
             CategoryScreen(
-                category = CategoryResource.categoryResource ,
+                category = CategoryResource.categoryResource,
                 onCategoryClick =
                 { navController.navigate(Route.RecommendationResourceRestaurants.name) }
             )
